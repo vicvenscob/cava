@@ -1,6 +1,6 @@
 [package]
 name = "cava"
-version = "0.10.3"
+version = "0.10.7"
 description = "console-based audio visualizer for ALSA, PulseAudio, PipeWire and more"
 homepage = "https://github.com/vicvenscob/cava"
 license = "MIT"
