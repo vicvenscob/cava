@@ -1,11 +1,11 @@
 [package]
 name = "cava"
-version = "1.0.0"
-description = " Cross-platform Audio Visualizer "
-homepage = "https://github.com/karlstav/cava"
+version = "0.10.3"
+description = "console-based audio visualizer for ALSA, PulseAudio, PipeWire and more"
+homepage = "https://github.com/vicvenscob/cava"
 license = "MIT"
 url = "https://github.com/vicvenscob/cava/archive/refs/heads/master.tar.gz"
 depends = []
-post_install = "./autogen.sh && ./configure && make && cp htop /usr/local/bin/htop
+post_install = "./autogen.sh && ./configure && make && cp cava /usr/local/bin/cava"
 
 [package.files]
