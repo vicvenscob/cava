@@ -1,0 +1,11 @@
+[package]
+name = "cava"
+version = "1.0.0"
+description = " Cross-platform Audio Visualizer "
+homepage = "https://github.com/karlstav/cava"
+license = "MIT"
+url = "https://github.com/vicvenscob/cava/archive/refs/heads/master.tar.gz"
+depends = []
+post_install = "./autogen.sh && ./configure && make && cp htop /usr/local/bin/htop
+
+[package.files]
